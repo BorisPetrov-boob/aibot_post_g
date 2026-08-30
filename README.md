@@ -79,7 +79,7 @@ docker compose up --build
 - RabbitMQ UI: http://localhost:15672 (guest / guest)
 
 Таблицы создаются автоматически при старте API (`init_db()` → `create_all`).
-Для продакшена подключите Alembic (пакет уже в `requirements.txt`).
+Для продакшена можно подключить Alembic (пакет уже в `requirements.txt`).
 
 ## Локальный запуск без Docker
 
